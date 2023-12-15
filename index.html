@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Aguafina+Script&family=IM+Fell+English+SC&family=Lora&family=MedievalSharp&family=Roboto+Condensed:wght@100&family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
+    <title>DE-VE-DE</title>
+</head>
+<body>
+    <header>
+        <h1>DE-VE-DE</h1>
+    </header>
+
+    <main>
+    <form id="addMovieForm">
+        <input type="text" placeholder="Titel" id="title" required>
+        <input type="text" placeholder="Genre" id="genre" required>
+        <input type="text" placeholder="Utgivningsår" id="releaseDate" required>
+        <button type="submit" id="submitButton">Lägg till film</button>
+      </form>
+
+      <section id="movieList"></section>
+    </main>
+
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
